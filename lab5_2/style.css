@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#colors {
+    width: 291px;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px #000000 solid;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    border-collapse: collapse;
+}
