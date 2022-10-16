@@ -1,0 +1,50 @@
+body {
+    background-color: #808080;
+    margin: 0;
+    align-items: center;
+}
+
+body,
+#results,
+#data {
+    display: flex;
+}
+
+body,
+#data {
+    flex-direction: column;
+}
+
+button {
+    color: white;
+    border: 3px solid #484C51;
+    border-radius: 5px;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+
+button,
+#data {
+    background-color: #343A40;
+}
+
+#success {
+    font-size: 30px;
+    color: #1B2025;
+    padding-bottom: 5px;
+}
+
+#results {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#data {
+    width: 301px;
+    color: white;
+    border: 1px solid black;
+}
+
+p {
+    margin-left: 15px;
+}
