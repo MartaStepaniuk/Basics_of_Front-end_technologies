@@ -1,6 +1,7 @@
 {
-  "name": "my-app",
+  "name": "lab7_1",
   "version": "0.1.0",
+  "homepage": "https://martastepaniuk.github.io/Basics_of_Front-end_technologies/lab7_1/build/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
