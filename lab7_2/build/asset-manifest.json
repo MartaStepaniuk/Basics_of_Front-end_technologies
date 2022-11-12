@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Basics_of_Front-end_technologies/static/js/main.ac8322db.js",
-    "index.html": "/Basics_of_Front-end_technologies/index.html",
-    "main.ac8322db.js.map": "/Basics_of_Front-end_technologies/static/js/main.ac8322db.js.map"
+    "main.js": "/Basics_of_Front-end_technologies/lab7_2/build/static/js/main.ac8322db.js",
+    "index.html": "/Basics_of_Front-end_technologies/lab7_2/build/index.html",
+    "main.ac8322db.js.map": "/Basics_of_Front-end_technologies/lab7_2/build/static/js/main.ac8322db.js.map"
   },
   "entrypoints": [
     "static/js/main.ac8322db.js"
