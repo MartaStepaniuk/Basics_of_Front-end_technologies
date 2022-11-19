@@ -1,0 +1,734 @@
+/*Обнулення*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+header,
+.icons,
+nav,
+.onlineEdu,
+.links {
+    display: flex;
+}
+
+header,
+.icons,
+nav,
+.onlineEdu {
+    align-items: center;
+}
+
+header {
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.icons,
+.onlineEdu {
+    width: 180px;
+}
+
+.icons,
+.search button {
+    background: #00008b;
+    color: white;
+}
+
+.icons {
+    justify-content: space-evenly;
+    height: 35px;
+}
+
+.mailPhone,
+.buttons span,
+::placeholder {
+    color: #808080;
+}
+
+.mail,
+.buttons button {
+    margin: 0 10px;
+}
+
+.phone {
+    margin: 0 35px;
+}
+
+.buttons,
+.search,
+.search button,
+.imageText,
+.imageText img,
+.text {
+    position: absolute;
+}
+
+.buttons {
+    right: 80px;
+}
+
+.buttons button {
+    background: white;
+}
+
+.buttons i,
+.onlineEdu i,
+.text p {
+    color: #00008b;
+}
+
+.buttons span {
+    margin-left: 3px;
+}
+
+.onlineEdu,
+.search input {
+    background: #F4F4F4;
+}
+
+.onlineEdu {
+    justify-content: center;
+    height: 90px;
+}
+
+.onlineEdu i {
+    font-size: 30px;
+}
+
+.onlineEdu span,
+.links a,
+::placeholder,
+.text p,
+h1 {
+    font-weight: 700;
+}
+
+.onlineEdu span,
+.text {
+    margin-left: 10px;
+}
+
+.onlineEdu span {
+    font-size: 25px;
+}
+
+.links a {
+    margin: 0 15px;
+    color: #000;
+}
+
+.search {
+    right: 35px;
+}
+
+.search input,
+.search button {
+    height: 50px;
+}
+
+.search input {
+    width: 235px;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+
+.search button,
+.imageText,
+.imageText img {
+    right: 0;
+}
+
+.search button {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.imageAndText,
+.imageText {
+    height: 558px;
+}
+
+.imageAndText {
+    margin-bottom: 170px;
+}
+
+.imageText {
+    width: 1330px;
+    background: #568ED8;
+}
+
+.text {
+    bottom: 0;
+}
+
+.text p {
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info p {
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #37A1F7;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 30px 0 35px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+}
+
+.category {
+    width: 275px;
+    border: 1px solid #E3E3E3;
+    padding: 40px 40px 35px 35px;
+    margin: 15px 10px;
+}
+
+.category i {
+    font-size: 35px;
+    color: #1D1B79;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 30px 0 20px;
+    text-transform: capitalize;
+}
+
+.category p {
+    text-align: justify;
+    line-height: 20px;
+}
+
+.category p,
+.category a {
+    color: #808080;
+}
+
+.category a {
+    display: block;
+    margin-top: 35px;
+}
+
+.information button {
+    background: #2D2F93;
+    color: #fff;
+    padding: 10px 35px;
+    margin: 60px 0 140px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    background: #F6FBFF;
+    padding: 80px 0;
+    margin-bottom: 170px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+}
+
+.item img {
+    width: 55px;
+}
+
+.item1 i,
+.item3 i {
+    color: #5CA94B;
+}
+
+.item1 h4,
+.item3 h4 {
+    color: #0F8F61;
+}
+
+.item2 i {
+    color: #3C40A9;
+}
+
+.item2 h4 {
+    color: #262777;
+}
+
+.item4 i {
+    color: #F96532;
+}
+
+.item4 h4 {
+    color: #E34B20;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.popularCourses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popularCourses p {
+    color: #37A1F7;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 30px 0 50px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.graphicWebDigital {
+    display: flex;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.courses img {
+    width: 275px;
+}
+
+.courseInfo {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E3E3E3;
+    padding: 25px 25px 15px;
+}
+
+h6 {
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+.popularCourses button {
+    background: #2D2F93;
+    color: #fff;
+    padding: 10px 35px;
+    margin: 60px 0 140px;
+}
+
+.stars {
+    border-bottom: 1px solid #F4F4F4;
+    padding: 35px 0 15px;
+}
+
+.stars .fa-star {
+    color: #FFB848;
+    font-size: 10px;
+}
+
+.stars span {
+    color: #808080;
+    display: inline-block;
+    margin-left: 89px;
+}
+
+.usersHearts {
+    color: #808080;
+    margin-top: 10px;
+}
+
+.usersHearts .fa-user,
+.usersHearts .fa-heart {
+    margin-right: 3px;
+}
+
+.usersHearts .margin {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.usersHearts .free {
+    margin-left: 94px;
+}
+
+.bestTeachers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2D2F93;
+}
+
+.bestTeachers .aboutFaculty {
+    color: #37A1F7;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 130px;
+}
+
+.bestTeachers h5 {
+    color: #fff;
+}
+
+.teachers {
+    display: flex;
+}
+
+.bestTeachers button {
+    background: #fff;
+    padding: 10px 35px;
+    margin: 60px 0 140px;
+}
+
+.teacher {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.teacher img {
+    width: 275px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 275px;
+}
+
+.person p {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.person span {
+    color: #808080;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+}
+
+@media (max-width: 725px) {
+
+    header,
+    nav {
+        flex-direction: column;
+    }
+
+    .icons,
+    .onlineEdu,
+    .imageText,
+    .imageText img,
+    .text {
+        width: 100%;
+    }
+
+    .icons {
+        margin-bottom: 15px;
+    }
+
+    .phone {
+        margin: 0 10px;
+    }
+
+    .buttons,
+    .search {
+        position: relative;
+        right: 0;
+        margin: 15px 0;
+    }
+
+    .links,
+    .text {
+        text-align: center;
+    }
+
+    .links {
+        margin-top: 15px;
+    }
+
+    .imageAndText,
+    .imageText {
+        height: 600px;
+    }
+
+    .imageAndText {
+        margin-bottom: 35px;
+    }
+
+    .imageText img {
+        bottom: 0;
+    }
+
+    .text {
+        top: 0;
+        margin-left: 0;
+    }
+
+    .text p {
+        margin-top: 40px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+
+    h2,
+    h5 {
+        text-align: center;
+    }
+
+    .categories {
+        flex-direction: column;
+    }
+
+    .items {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .item {
+        margin-bottom: 20px;
+    }
+
+    .information button,
+    .popularCourses button,
+    .bestTeachers button {
+        margin: 45px 0 60px;
+    }
+
+    .graphicWebDigital {
+        flex-direction: column;
+    }
+
+    .courses {
+        margin-bottom: 15px;
+    }
+
+    .teachers {
+        flex-direction: column;
+    }
+
+    .teacher {
+        margin: 15px 0;
+    }
+
+    .category {
+        margin: 15px 0;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 725px) and (max-width:1330px) {
+    .buttons {
+        right: 45px;
+    }
+
+    .links a {
+        margin: 0 5px;
+    }
+
+    .search {
+        right: 20px;
+    }
+
+    .search input {
+        width: 190px;
+    }
+
+    .imageAndText,
+    .imageText {
+        height: 980px;
+    }
+
+    .imageText,
+    .imageText img,
+    .text {
+        width: 100%;
+    }
+
+    .imageText img {
+        bottom: 0;
+    }
+
+    .text {
+        top: 0;
+        text-align: center;
+    }
+
+    .text p {
+        margin-top: 40px;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+    .categories {
+        justify-content: center;
+    }
+
+    .categories,
+    .digitalSeoContent,
+    .graphicWebDigital {
+        width: 100%;
+    }
+
+    .courses img {
+        width: 239px;
+    }
+
+    .stars span {
+        margin-left: 52px;
+    }
+
+    .graphicWebDigital {
+        justify-content: center;
+    }
+
+    .usersHearts .free {
+        margin-left: 58px;
+    }
+
+    .teachers {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .teacher {
+        margin: 10px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
